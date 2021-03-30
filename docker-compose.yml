@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  web:
+    container_name: pizza-order-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 8000:8000
+    restart: always
+    environment:
+      - FASTAPI_ENV=production
