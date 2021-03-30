@@ -8,6 +8,7 @@ documentation: https://documenter.getpostman.com/view/3827865/TzCL9UXJ
 
 - install python(3.8)
 - install pip3
+- install postgres
 
 ## Testing and run
 
