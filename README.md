@@ -2,7 +2,7 @@
 
 pizza-order-api
 
-documentation: https://documenter.getpostman.com/view/3827865/TzCL9UXJ
+documentation: <https://documenter.getpostman.com/view/3827865/TzCL9UXJ>
 
 ## Requirement
 
@@ -12,7 +12,7 @@ documentation: https://documenter.getpostman.com/view/3827865/TzCL9UXJ
 
 ## Testing and run
 
-```
+```zsh
 // use requirements.txt
 $ pip3 install -r requirements.txt
 
@@ -22,7 +22,7 @@ $ uvicorn app:app --reload
 
 ## Docker
 
-```
+```zsh
 // build images and start container in one line
 docker-compose up -d --build
 
